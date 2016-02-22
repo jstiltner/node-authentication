@@ -12,6 +12,20 @@
     "type": "git",
     "url": "git+https://github.com/jstiltner/node-authentication.git"
   },
+ "eslintConfig": {
+    "globals": {
+      "res": true
+    },
+    "env": {
+      "mocha": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0
+    }
+  },
   "keywords": [],
   "author": "Jason Stiltner <jasonstiltner@gmail.com>",
   "license": "MIT",
